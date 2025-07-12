@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>PredictiveWorld</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="shortcut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPVcDVHr5Rgt9Gow8bWDcBTJxzyh7EOEiY8Q&s" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.7/css/bootstrap.min.css" integrity="sha512-fw7f+TcMjTb7bpbLJZlP8g2Y4XcCyFZW8uy8HsRZsH/SwbMw0plKHFHr99DN3l04VsYNwvzicUX/6qurvIxbxw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.7/js/bootstrap.min.js" integrity="sha512-zKeerWHHuP3ar7kX2WKBSENzb+GJytFSBL6HrR2nPSR1kOX1qjm+oHooQtbDpDBSITgyl7QXZApvDfDWvKjkUw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+ <!-- offline links -->
+    <!-- <link rel="stylesheet" href="./bootstrap-5.3.7-dist/css/bootstrap.min.css">
+    <script src="./bootstrap-5.3.7-dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./fontawesome-free-5.15.4-web/css/all.min.css"> -->
+    
+</head>
+<body class="bg-light">
+
+    <!-- Navigation:
+    Navbar and Header -->
+
+<header>
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+            <section class="navbar-header col-lg-2 col-md-3">
+                <a class="navbar-brand" href="#" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-earth-americas"></i> PredictiveWorld</a>               
+            </section>
+          
+            <section class="col-lg-9 col-md-7  mt-2">
+                    <ul class="nav-pages nav col-12 col-md-auto mb-2 justify-content-center mb-md-0 gap-2"> 
+                            <li><a href="#home" class="bg-info nav-link px-2"><i class="fa-solid fa-house"></i> Home</a></li> 
+                            <li><a href="#features" class="bg-info nav-link px-2"><i class="fa-solid fa-lightbulb"></i> Features</a></li> 
+                            <li><a href="#about" class="bg-info nav-link px-2"><i class="fa-solid fa-circle-user"></i> About</a></li> 
+                            <li><a href="#contact" class="bg-info nav-link px-2"><i class="fa-solid fa-comment"></i> Contact</a></li> 
+                    </ul>
+            </section>
+            <section class="col-lg-1 col-md-2">
+            <button 
+            type="button"
+            class="navbar-toggler"
+            data-bs-toggle="collapse" 
+            data-bs-target="#navPages" 
+            aria-expanded="false"
+            aria-controls="navPages"
+            aria-label="Toggle navigation"
+            >
+                <span class="navbar-toggler-icon">
+                </span>
+            </button>
+            </section>
+        </div>
+    </nav>
+    <section class="expand">
+            <div class="expand d-flex flex-column flex-shrink-0 text-bg-dark"> 
+                <div class="collapse p-3"  id="navPages">
+                <span class="fs-4 text-danger">Sidebar</span> </a> 
+                <hr> 
+
+                <ul class="sidebar-pages nav nav-pills flex-column mb-auto"> 
+                    <li class="nav-item"> <a href="#education" class="nav-link text-white border-bottom border-danger" aria-current="page"> <svg class="bi pe-none me-2" width="16" height="16" aria-hidden="true"><use xlink:href="#home"></use></svg>
+                        Education
+                    </a> </li> 
+
+                    <li class="nav-item"> <a href="#culture" class="nav-link text-white border-bottom border-danger"> <svg class="bi pe-none me-2" width="16" height="16" aria-hidden="true"><use xlink:href="#speedometer2"></use></svg>
+                        Culture
+                    </a> </li> 
+
+                    <li class="nav-item"> <a href="#health" class="nav-link text-white border-bottom border-danger"> <svg class="bi pe-none me-2" width="16" height="16" aria-hidden="true"><use xlink:href="#table"></use></svg>
+                        Health
+                    </a> </li> 
+                    
+                    <li class="nav-item"> <a href="#technology" class="nav-link text-white border-bottom border-danger"> <svg class="bi pe-none me-2" width="16" height="16" aria-hidden="true"><use xlink:href="#grid"></use></svg>
+                        Technology
+                    </a> </li> 
+                    
+                    <li class="nav-item"> <a href="#womenEmpowerment" class="nav-link text-white border-bottom border-danger"> <svg class="bi pe-none me-2" width="16" height="16" aria-hidden="true"><use xlink:href="#people-circle"></use></svg>
+                        Women Empowerment
+                    </a> </li> 
+
+                    <li class="nav-item"> <a href="#youth" class="nav-link text-white border-bottom border-danger"> <svg class="bi pe-none me-2" width="16" height="16" aria-hidden="true"><use xlink:href="#people-circle"></use></svg>
+                        Youth
+                    </a> </li> 
+
+                    <li class="nav-item"> <a href="#agriculture" class="nav-link text-white border-bottom border-danger"> <svg class="bi pe-none me-2" width="16" height="16" aria-hidden="true"><use xlink:href="#people-circle"></use></svg>
+                        Agriculture
+                    </a> </li> 
+                </ul> 
+               
+            </div>
+            </div>
+    </section>
+
+    <section class="hero">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 text-center mb-lg-4 mb-md-0 mt-lg-5 display-md-2 text-light">
+                    <h1 class="display-lg-5 fw-lg-bold mt-md-">FutureMade.Af</h1>                
+                    <p class="fw-bold">Designing Afghanistan's Digital Tomorrow</p>
+                    <button class="btn btn-info text-light border-2 border-secondary  mt-4">What we see <i class="fa fa-eye" aria-hidden="true"></i><br><span class="spinner-grow spinner-grow-sm"></span>  Evidence </button>
+                    <button class="btn btn-warning border-2 text-light border-secondary mt-4 ">What we say <i class="fa fa-bullhorn" aria-hidden="true"></i> <br><span class="spinner-grow spinner-grow-sm"></span> Prediction </button>
+
+                </div>
+                <div class="col-lg-6 text-center  mt-5 display-md-block shadow-lg">
+                    <img class="rounded mt-lg-5 w-75 shadow-lg" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlmo2fOq7I0jYYLWHLZK1ZqensR3V4VcOIuQ&s" alt="Photo" srcset="" width="270" height="250">
+                </div>
+            </div>
+
+        </div>
+    </section>
+   
+    
+            <div class="container-fluid bg-info border-bottom border-dark"> 
+        <div class="row fs-6 p-3">
+            <div class="col-2 bg-danger rounded shadow">
+            <p class="text-center pt-2">Our Toturial</p>
+            </div> 
+            <div class="col-1"></div>
+               <marquee behavior="" direction="left" class="col-9 bg-warning pt-2 rounded" >            
+            <ul class="breadcrumb gap-lg-4 gap-md-0">
+              <li class="breadcrumb-item"><a href="#education">Education</a></li>
+              <li class="breadcrumb-item"><a href="#culture">Culture</a></li>
+              <li class="breadcrumb-item"><a href="#health">Health</a></li>
+              <li class="breadcrumb-item"><a href="#technologe">Technology</a></li>
+              <li class="breadcrumb-item"><a href="#womenEmpowerment">Women Empowerment</a></li>
+              <li class="breadcrumb-item"><a href="#youth">Youth</a></li>
+              <li class="breadcrumb-item"><a href="#agriculture">Agriculture</a></li>
+            </ul>
+               </marquee>
+        </div>   
+    </div> 
+</header>
+<main>
+
+     <!-- About Us "section" -->
+
+    <section class="about position-relative" id="about">
+     <div class=" text-dark text-lg-start text-md-center w-50 m-auto mb-5">
+       <h1 class="text-center m-5">About Us</h1>
+       <p class="text-center">
+           HI EVERYONE ! <br>
+           Welcoom to our website, <br>
+       </p>
+       <p>  
+           In here, we are tring our best to collect all the data about what is going on all around the wourld. <br>
+           Acording to the last searches about Afghanistan that many of searchers asked if we could let them know: <br> 
+          <ul class="text-start m-4">
+              <li>  The setuation of Afghanistan? </li>
+              <li>  What is exactly going on there?</li>     
+              <li>  And how or what would it be in the future?</li> 
+          </ul>
+           So our new plan is to share Afghans' setuation in their country. <br>
+           This poject is made by "Zahra Ghafoory" the leader of our work. <br>
+           We wish, now you can find your answers by the results we are giving you. <br>
+           here are issues we are focusing on : 
+       </p>
+     </div>
+    </section>
+
+     <!-- Crousel of Tutorials -->
+
+    <section class="container-fluid text-bg-dark" id="features">
+                  <section class="row p-5">
+                      <siction class="col-3 ">
+                        <div>
+                       
+                        </div>
+                      </siction>
+                      <siction class="col-6 ">
+                            <div id="pages-carousel" class="d-block carousel slide" data-bs-ride="carousel">
+                                    <div class="carousel-indicators indi">
+                                      <button type="button" data-bs-target="#pages-carousel" data-bs-slide-to="0" class="active"></button>
+                                      <button type="button" data-bs-target="#pages-carousel" data-bs-slide-to="1"></button>
+                                      <button type="button" data-bs-target="#pages-carousel" data-bs-slide-to="2"></button>
+                                      <button type="button" data-bs-target="#pages-carousel" data-bs-slide-to="3"></button>
+                                      <button type="button" data-bs-target="#pages-carousel" data-bs-slide-to="4"></button>
+                                      <button type="button" data-bs-target="#pages-carousel" data-bs-slide-to="5"></button>
+                                      <button type="button" data-bs-target="#pages-carousel" data-bs-slide-to="6"></button>
+                                    </div>
+                            
+                            
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                                <div class="mb-5 card bg-warning" style="width: 15rem; height: 15rem; padding: 5px; margin: 5px;">
+                                                        <h4 class="card-header">Education <i class="fa fa-graduation-cap" aria-hidden="true"></i></h4>
+                                                        <img src="./img/education.jpg" alt="" class="card-img-top">
+                                                    </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                                <div class="mb-5 card bg-warning" style="width: 15rem; height: 15rem; padding: 5px; margin: 5px;">
+                                                        <h4 class="card-header">Culture <i class="fa fa-home" aria-hidden="true"></i></h4>
+                                                        <img src="./img/culture.jpg" alt="" class="card-img-top">
+                                                    </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                                <div class="mb-5 card bg-warning" style="width: 15rem; height: 15rem; padding: 5px; margin: 5px;">
+                                                        <h4 class="card-header">Health <i class="fa fa-heartbeat" aria-hidden="true"></i></h4>
+                                                        <img src="./img/health.jpg" alt="" class="card-img-top">
+                                                    </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                                <div class="mb-5 card bg-warning" style="width: 15rem; height: 15rem; padding: 5px; margin: 5px;">
+                                                        <h4 class="card-header">Technology <i class="fa-solid fa-robot"></i></h4>
+                                                        <img src="./img/technology.jpg" alt="" class="card-img-top">
+                                                    </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                                <div class="mb-5 card bg-warning" style="width: 15rem; height: 15rem; padding: 5px; margin: 5px;">
+                                                        <h4 class="card-header fs-5">Women Empowerment <i class="fa-solid fa-hand-fist"></i></h4>
+                                                        <img src="./img/women empowerment.jpg" alt="" class="card-img-top">
+                                                    </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                                <div class="mb-5 card bg-warning" style="width: 15rem; height: 15rem; padding: 5px; margin: 5px;">
+                                                        <h4 class="card-header">Youth <i class="fa-solid fa-users"></i></h4>
+                                                        <img src="./img/youth.jpg" alt="" class="card-img-top">
+                                                    </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                                <div class="mb-5 card bg-warning" style="width: 15rem; height: 15rem; padding: 5px; margin: 5px;">
+                                                        <h4 class="card-header">Agriculture <i class="fa-solid fa-mountain-sun"></i></h4>
+                                                        <img src="./img/agriculture.jpg" alt="" class="card-img-top">
+                                                    </div>  
+                                        </div>         
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#pages-carousel" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon"></span>
+                                          </button>
+                                          <button class="carousel-control-next" type="button" data-bs-target="#pages-carousel" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon"></span>
+                                          </button>
+                                </div>
+                      </siction>
+                      <siction class="col-3 ">
+                            <div>
+                                  
+                            </div>
+                      </siction>
+                  </section>
+    </section>
+
+     <!-- Home "section" -->
+
+     <section class="home my-5 mx-5" id="home">
+         <div class="w-100 text-center education-section mb-5" id="education">
+             <div class="home-light-color">
+                 <h2 class="text-danger text-start">Education <i class="fa fa-graduation-cap" aria-hidden="true"></i></h2>
+                   <p> Afghanistan is currently the only country in the world where secondary and higher education is strictly forbidden to women and girls over age 12.</p>
+
+                   <p> The Taliban swept back into power on 15 August 2021 and swiftly began curtailing women’s rights.</p>
+                    
+                   <p> Three years to the day after the fall of Kabul, the nation’s capital, at least 1.4 million girls have been deliberately denied access to secondary education because of the bans. </p>
+                    
+                   <p> Including the girls who were already out of school before the Taliban’s reimposition of strict religious legal codes, there are now almost 2.5 million girls in the country deprived of their right to education, representing 80 per cent of Afghan school age girls.
+                    
+                    There has also been a decrease by over half of the number of students enrolled in universities since 2021, UNESCO said. As a result, the country will face a shortage of graduates trained for highly skilled jobs, which will only exacerbate development problems, according to the report.</p>
+             </div>
+         </div>
+         <div class="w-100 text-center culture-section mb-5" id="culture">
+            <div class="home-lighter">
+                    <h2 class="text-danger text-start">Culture <i class="fa fa-home" aria-hidden="true"></i></h2>
+                <p>The Taliban embrace cultural heritage
+                        Afghanistan’s rulers no longer want to smash up the country’s pre-Islamic riches</p>
+                        <p>When the Taliban barrelled into Kabul in August 2021,
+                             the curators of Afghanistan’s national museum stashed away its pre-Islamic treasures.
+                             During the Islamists’ previous spell in power,
+                             the Taliban minister of finance led an axe-wielding wrecking crew to smash up thousands of the pre-Islamic artefacts bequeathed by Afghanistan’s staggeringly rich history.
+                             Determined to prevent a repeat performance,
+                             museum employees camped for nights on end in the battered 1920s Kabul villa that houses its collections.</p>
+                <p>#DoNotTouchMyClothes: We find out how Afghan women around the world used this hashtag to share photos of themselves in colourful traditional clothes in protest in response to pro-Taliban rally of women in Kabul - dressed all in black, full-veils, and long robes.</p>
+                <p>Sana Safi speaks to Dr Bahar Jalil who posted the very first picture, and to Sabrina Spanta – once a refugee, and now a fashion designer in the USA, inspired by Afghan women, and who recently starred on TV fashion show Project Runway.</p>
+            </div> 
+        </div>
+        <div class="w-100 text-center health-section mb-5" id="health">
+            <div class="home-light-color">
+                    <h2 class="text-danger text-start">Health <i class="fa fa-heartbeat" aria-hidden="true"></i></h2>
+                <p>The sharp reduction in financial and technical development support for Afghanistan’s public health system since the Taliban takeover in August 2021 has severely harmed the country’s healthcare system. 
+                    The lack of sufficient healthcare services has undermined the right to health for millions of Afghans and has left the population vulnerable to disease and other consequences of inadequate medical care. 
+                    Women and girls have been disproportionately affected by the healthcare crisis, particularly because of Taliban abuses. 
+                    The Taliban’s restrictions on women’s freedom of movement and employment with humanitarian and other organizations have gravely impeded women and girls’ access to health services, 
+                    while bans on education for women and girls have blocked almost all training of future female healthcare workers in the country.</p>
+                <p>
+                        The collapse of the Afghan economy and the loss of hundreds of thousands of jobs after the Taliban takeover drove many Afghans into extreme poverty, 
+                        leaving them unable to pay medical expenses, worsening their social determinants of health, and threatening rights essential for maintaining an adequate standard of living, including the right to food. The result has been life-threatening for many Afghans, including millions of children suffering malnutrition. Almost two-thirds of the Afghan population needed humanitarian aid by the end of 2023. Cuts to international humanitarian assistance in 2023, with more anticipated, 
+                        and a longstanding drought have further threatened the availability and accessibility of adequate food and exacerbated the crisis.
+                </p>  
+                <p>
+                        Over the previous two decades, the Afghan government had depended on international development support from donors to fund essential services like primary health care, 
+                        even as Afghans paid the majority of healthcare costs from their own pockets. 
+                        The previous government’s own contribution to the public primary care system was negligible, 
+                        leaving it vulnerable to collapse once aid was withdrawn. 
+                        Donor development aid for Afghanistan’s public health system was approximately six times the government’s own expenditure on health, 
+                        with rising insecurity and declining donor support after 2012 already causing staffing and supply shortages. 
+                        After the Taliban takeover, the World Bank and other donor countries and institutions cut all development funding, 
+                        including for health, although humanitarian aid temporarily increased in 2021-2022, only to face cuts in 2023. 
+                        The sharp drop in development support sent a shock through the economy and the public health system; compounding the crisis, 
+                        many Afghan healthcare professionals left the country or quit their jobs.
+                </p>  
+                <p>
+                        Humanitarian aid organizations have tried to make up for the loss of donor-provided public health funds, 
+                        particularly in hospital support, however they cannot replace what had been provided for the public health system. 
+                        With the decrease in funding for humanitarian assistance after 2022, 
+                        aid organizations have shifted their focus toward immediate relief efforts only. 
+                        Temporary support to public hospitals immediately after August 2021 prevented a total collapse, 
+                        but aid organizations have also closed clinics due to a lack of funds, 
+                        and local aid groups that cannot import their own supplies have reported shortages of medicines and equipment. 
+                        Humanitarian assistance and exemptions to sanctions prevented a worse catastrophe in the first two years after the Taliban takeover; however, 
+                        shrinking humanitarian aid now imperils the entire Afghan population.
+                </p> 
+               <button class="border-info"><a href="https://www.hrw.org/report/2024/02/12/disaster-foreseeable-future/afghanistans-healthcare-crisis" target="_blank" rel="noopener noreferrer">Read more</a> </button>
+            </div>
+        </div>
+        <div class="w-100 text-center technology-section mb-5" id="technology">
+            <div class="home-lighter">
+                    <h2 class="text-danger text-start">Technology <i class="fa-solid fa-robot"></i></h2>
+<h4 class="my-4 py-4 text-warning">Reimagining Afghanistan's Future Through Technology and Innovation</h4>
+<p>Afghanistan, a country long associated with conflict and political instability, is standing at the cusp of a digital revolution. 
+    Despite facing numerous challenges, 
+    there's a growing recognition that technology and innovation could be key drivers in reimagining and rebuilding the nation's future.</p>
+<div>
+    <h5> Technological Landscape in Afghanistan:</h5>
+    <p>
+            Historically, Afghanistan's technological infrastructure has lagged due to ongoing conflicts. 
+            However, recent years have seen a significant shift. As of 2023, the Afghanistan Telecom Regulatory Authority (ATRA) reports over 8 million internet users, a remarkable increase from just a few years prior. 
+            Mobile phone penetration has reached 90% in urban areas, though rural regions still face connectivity challenges.
+    </p>
+</div>
+<div>
+    <h5>The Rise of Tech Startups:</h5>
+    <p>
+            Afghanistan is witnessing a burgeoning startup ecosystem. Young entrepreneurs, often educated abroad, 
+            are returning with skills and a vision to foster change. 
+            Kabul, the capital city, is home to a growing number of tech startups focusing on everything from e-commerce to digital education platforms. 
+            These startups are not only creating jobs but are also offering solutions tailored to local needs.
+    </p>
+</div>
+<div>
+    <h5>Focus on Education and Digital Literacy:</h5>
+    <p>
+            A key aspect of Afghanistan's tech revolution is the emphasis on education and digital literacy. 
+            Initiatives like Code to Inspire, the first coding school for girls in Afghanistan, are breaking barriers. 
+            Moreover, universities are increasingly incorporating IT and digital skills into their curricula
+            , aiming to equip the younger generation with the tools needed for a digital economy.</p>
+</div>
+<div>
+    <h5>Challenges and Opportunities:</h5>
+    <p>
+            Afghanistan's journey from battlefield to cyberspace is laden with challenges. Limited infrastructure, 
+            a lack of skilled IT professionals, and security concerns are significant hurdles. 
+            However, these challenges also present opportunities for innovation. For instance, 
+            solar-powered internet solutions are being explored to overcome electricity shortages.</p>
+</div>
+<div>
+    <h5>Government and International Support:</h5>
+    <p>
+            The Afghan government, realizing the potential of technology, has been working on policies to promote IT and innovation. 
+            International aid and partnerships are also playing a crucial role, 
+            with organizations like USAID and the World Bank funding various tech initiatives.</p>
+</div>
+<div>
+    <h5>Conclusion:</h5>
+    <p>
+            Reimagining Afghanistan's future through technology and innovation offers a hopeful narrative for a country often defined by its struggles. 
+            The shift from battlefield to cyberspace signifies a transformative journey, one where technology is not just a tool for development but a catalyst for change. 
+            With continued support and investment, Afghanistan could emerge as a surprising hub of innovation in the region, 
+            offering a model of how technology can pave the way for rebuilding and resilience in post-conflict societies.</p>
+</div>
+            </div>
+        </div>
+        <div class=" text-center women-empowerment-section mb-5" id="womenEmpowerment">
+            <div class="home-light-color">
+            <h2 class="text-danger text-start">WomenEmpowerment <i class="fa-solid fa-hand-fist"></i></h2>
+            <p>
+                <p>  Just four years ago, a woman in Afghanistan could technically decide to run for President, attend university, or play sports.</p>  
+
+                    Today, none of that is possible. Even before the Taliban took power in August 2021, 
+                    Afghanistan ranked among the lowest countries in the world for gender equality. 
+                    But there had been hard-won gains. Now, under the Taliban’s de facto rule, 
+                    those gains have been erased and Afghanistan has become the world’s most severe women’s rights crisis.
+            </p>
+            <p>
+                    Yet the fierce determination and resistance of Afghan women continues to burn – and inspire.
+                     Despite near-total restrictions on their lives, they still find ways to run businesses and work on the front lines as humanitarian workers,
+                     journalists and community leaders. 
+                     <br>
+                    “Sometimes, I wonder how to remain hopeful in these dark circumstances,” 
+                    says Fariba (name changed), who had just started a degree when universities were closed to women. 
+                    “Nonetheless, I remain hopeful for the future and reassure myself that darkness will end soon, 
+                    and women and girls in our society will once again access opportunities for work, education and their basic rights.”
+            </p>
+            <p>
+           <h6> Afghan women’s rights under the Taliban </h6>
+                  UN Women’s 2024 Afghanistan Gender Index, developed with European Union support, 
+                  confirmed that the country is falling ‘catastrophically’ far behind on gender equality and women’s empowerment. 
+                  Nearly 80 per cent of young Afghan women are not in education, employment or training. 
+                  Not a single woman has a position in the de facto Cabinet or local offices. 
+
+                  A complex patchwork of more than 80 edicts,
+                  directives and decrees introduced by the Taliban has directly and systematically targeted women’s rights and autonomy. 
+                  They ban women from education after Grade Six; most professions; and from public spaces, including parks, gyms, and sports clubs. 
+            </p>
+            <button class="border-info"><a href="https://www.unwomen.org/en/news-stories/feature-story/2025/06/afghanistans-women-are-still-fighting-inside-the-fight-for-rights-under-taliban" target="_blank" rel="noopener noreferrer">Read more</a></button>
+        </div>
+        </div>
+        <div class="w-100 text-center youth-section mb-5" id="youth">
+            <div class="home-lighter">
+                    <h2 class="text-danger text-start">Youth <i class="fa-solid fa-users"></i></h2>
+                    <div>
+                            The Taliban Are Stuck in the Past — But Afghan Youth Can Create a Better Future.
+                            On International Youth Day, a young Afghan explains why youth aren't waiting for the Taliban's promises of reform.
+                    </div>
+                    <div>
+                            When pressed on the future of girls’ education in Afghanistan, Taliban Deputy Foreign Minister Mohammad Abbas Stanikzai stated that their government law requires education for “both men and women” and signaled the former insurgent group would reopen girls’ schools once the Taliban government developed “some sort of solution.”
+                    </div>
+                <div>
+                      <p>  That was over 25 years ago, at the outset of the Taliban’s first stint governing Afghanistan from 1996-2001. Stanikzai and several other Taliban officials continually assured that a policy shift was imminent — but the Taliban never lifted the ban on women’s and girls’ education.
+                        </p>
+                      <p>  More than two decades later, with the Taliban in power once again, Stanikzai has reassumed his position as deputy minister of foreign affairs. With that familiar title has come familiar rhetoric regarding the need to reopen girls’ education.
+                        </p>
+                     <p>  But this time, the Afghan people understand the truth. They know the intervening years have failed to soften the Taliban’s stances — that the words of an official like Stanikzai don’t represent a new consensus within the Taliban. Afghans know that underneath the Taliban’s hollow promises, the group as a whole still exhibits the same obstinance toward popular reform that characterized their rule in the late 1990’s. To create a better future, 
+                         Afghans cannot wait for the Taliban to see the light. We need to build it ourselves.
+                        </p> 
+                    </div>
+            </div>
+        </div>
+        <div class="w-100 text-center agriculture-section mb-5" id="agriculture">
+            <div class="home-light-color">
+                    <h2 class="text-danger text-start">Agriculture <i class="fa-solid fa-mountain-sun"></i></h2>
+              <div>
+                   <h4 class="text-center text-warning">The Future of Food Security in Afghanistan</h4>
+                  <p>  Posted By Esther Sperling on Mar 30, 2018
+                    Climate change will not be kind to South Asia. Numerous studies show India and Bangladesh’s vulnerability to changes in sea levels and monsoons. Yet, Afghanistan is largely avoided. How does a country plagued with instability plan for climate change? In this two part series, I’ll discuss the challenge of governance and food security in Afghanistan and the impact of opium on achieving either.
+                 </p> 
+                     
+                    
+                   <h4 class="text-center text-warning"> Threats to Food Security in Afghanistan</h4>
+                    
+                 <p>  Food security is commonly broken down into three factors; availability, accessibility, and utilization. Availability refers to the “supply side;” food production and stock. Accessibility refers to income and prices needed to access food. Utilization is about the nutritional intake and food preparation. Stability and consistency of the three components is critical for people to ensure food security. Afghanistan lacks consistency in all three areas, making it one of the most food insecure places in the world. The risk of food insecurity is exacerbated by two key variables; the ongoing conflict and the increasingly arid environment. The long term survival of the country will be determined by how these variables change.
+                    </p> 
+                <p>  Afghanistan has suffered almost constant intrastate armed conflict. The country saw multiple military coups in 1973 and 1978, and subsequent takeover by the Taliban from 1996-2001. Instability continued as the Taliban fought to regain control and the Afghan government floundered after the toppling of the Taliban in 2001 and installation of a democratic system by the U.S. coalition. The U.S. has about 15,000 troops in Afghanistan; attempting to build the stability, by training Afghan troops and targeting both Taliban and Al-Qaida holdouts. Yet, after over a decade and a half of war, the country remains unstable. The lack of stable governance means the population suffers from both lack of availability and access.
+                    </p>  
+                <p>  Beyond instability, Afghanistan is also a primarily arid environment. Naturally dry and warm, the country is made up of mostly rugged mountains with plains in the north and southwest. Land suitable for farming makes up about 20% of the country while almost 80% is permanent pasture. The environment makes cultivating crops difficult as both droughts and floods are common. Yet, almost 85% of the population is dependent on agriculture for a living. Some of the main products include wheat, sheep products, fruits and nuts, and, of course, opium.
+                    </p>  
+                    Wheat is particularly significant staple crop; making up over 50% of their diet and large percentage of agriculture. While Afghanistan relies primarily on domestic wheat production, imports have started to make up a larger percentage of total supply as demand grows. Today, families spend over 60% of their budget on food, making them vulnerable to food price shocks.
+                <p>   
+                    Climate change will add to the strain on Afghanistan’s agricultural sector. Climate models suggest that the country will become drier, with temperatures rising up to 4 degrees Celsius by 2060, and see increased frequency of extreme weather, both droughts and floods. This will lead to increased soil erosion and reduced water supply, which could cause increased crop failure and livestock starvation. Each year of subsequent drought will make it increasingly difficult for communities to bounce back.
+                   </p> 
+                </div>
+            </div>
+        </div>
+     </section>
+
+     <!-- per cent page -->
+
+     <section class="per-cent my-5 mx-5">
+            <div class="alert alert-success alert-dismissible fade show">
+                    <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                    <strong>Results!</strong> Now let's chack how much the situation is going to be worse.
+                  </div>
+                 <h5>Education</h5>
+                  <div class="progress">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" style="width:90%"></div>
+                  </div>
+
+                  <h5>Culture</h5>
+                  <div class="progress">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" style="width:38%"></div>
+                  </div>
+
+                  <h5>Health</h5>
+                  <div class="progress">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" style="width:70%"></div>
+                  </div>
+
+                  <h5>Technology</h5>
+                  <div class="progress">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" style="width:57%"></div>
+                  </div>
+
+                  <h5>WomenEmpowerment</h5>
+                  <div class="progress">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-important" style="width:60%"></div>
+                  </div>
+
+                  <h5>Youth</h5>
+                  <div class="progress">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-secondary" style="width:40%"></div>
+                  </div>
+
+                  <h5>Agriculture</h5>
+                  <div class="progress">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark" style="width:30%"></div>
+                  </div>
+
+     </section>
+
+     <!-- Contact Us "section" -->
+
+     <section class="bg-info py-5" id="contact">
+         <div class="container gap-lg-4 w-lg-50">
+             <h2 class="text-center mb-4"> Contact Us </h2>
+              <form class="w-lg-50">
+                  <div class="row mb-3">
+                      <div class="col-3"></div>
+                        <div class="col-lg-1">
+                                <label for="name">Name :</label>
+                        </div>
+                        <div class="col-lg-5 ">
+                                <input class="form-control" type="text" placeholder="Enter your name" name="name" id="name">
+                        </div>
+                  </div>
+                  <div class="row mb-3">
+                        <div class="col-3"></div>
+                        <div class="col-lg-1">
+                            <label for="email">Email :</label>
+                        </div>
+                        <div class="col-lg-5">
+                                <input class="form-control" type="text" placeholder="Enter your email" name="name" id="email">
+                        </div>
+                  </div>
+                  <div class="row mb-3">
+                        <div class="col-2"></div>
+                        <div class="col-lg-2">
+                            <label for="massage">What's your massage ?</label>
+                        </div>
+                      <div class="row gap-lg-3 mt-lg-3">
+                          <div class="col-lg-2"></div>
+                        <div class="col-lg-7">
+                                <textarea class="form-control" rows="3" placeholder="Enter your massage..." name="" id="massage" > </textarea>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="row ">
+                        <div class="col-12 text-center">
+                                <button class="btn btn-dark px-4"> Contact Us </button>
+                        </div>
+                  </div>
+              </form>  
+            
+         </div>
+
+
+     </section>
+</main>
+
+     <!-- Footer -->
+     
+<footer class="bg-dark text-light">
+    <div class="container p-4">
+        <div class="row ">
+            <div class="col-lg-5 col-md-12 border-bottom border-warning">
+                <div class="row mb-4">
+                    <h4 class="p-3 mt-1 shadow">Follow Us On</h4>
+                    <div class="container">
+                        <div class="row mt-3">
+                            <a href="https://github.com/ZahraGhafoory" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a> </i></span>
+                            <a href="https://x.com/ZahraGhafoory" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-x-twitter"></i></a></span>
+                            <a href="https://www.youtube.com/@ZahraGhafoory-s6h/shorts" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-youtube"></i></a></span>
+
+                            <a href="http://" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp"></i></a></span>
+                            <a href="http://" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-telegram"></i></a></span>                 
+                        </div>
+
+                    </div>
+                </div>
+                <div class="row my-5">
+                    <h6 class="p-4 shadow">predictiveWourld</h6>
+                    <img class="w-50 mt-3 rounded-circle" src="./img/brand image.jpg" alt="brand image" width="">
+                </div>
+            </div>
+            <div class="col-lg-1"></div>
+            <div class="col-lg-3 col-md-6">
+                <h4 class="m-3">Pages</h4>
+                <ul class="m-4">
+                    <li><a href="about">About Us</a></li>
+                    <li><a href="features">Services</a></li>
+                    <li><a href="home">Home</a></li>
+                    <li><a href="contact">Contact Us</a></li>
+                    
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <h4 class="m-3">Our Toturials</h4>
+                    <ul class="mt-4">
+                        <li><a href="education">Education</a></li>
+                        <li><a href="culture">culture</a></li>
+                        <li><a href="health">Health</a></li>
+                        <li><a href="technologe">Technology</a></li>
+                        <li><a href="womenEmpowerment">WomenEmpowerment</a></li>
+                        <li><a href="youth">Youth</a></li>
+                        <li><a href="agriculture">Agriculture</a></li>
+                    </ul>
+            </div>
+        </div>
+    </div>
+
+</footer>     
+
+</body>
+</html>
